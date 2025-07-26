@@ -117,12 +117,12 @@ if uploaded_file is not None:
     fig_time.update_layout(
         title='Elapsed Time vs ActualVoltage and MFC[2].ActualFlow',
         yaxis=dict(
-            title='ActualVoltage',
+            title='DC bias, V',
             tickfont=font_dict,
             tickcolor='blue'
         ),
         yaxis2=dict(
-            title='MFC[2].ActualFlow',
+            title='N2 flow rate, sccm',
             tickfont=font_dict,
             tickcolor='red',
             overlaying='y',
