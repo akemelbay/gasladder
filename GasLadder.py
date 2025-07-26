@@ -118,13 +118,13 @@ if uploaded_file is not None:
         title='Elapsed Time vs ActualVoltage and MFC[2].ActualFlow',
         yaxis=dict(
             title='ActualVoltage',
-            titlefont=dict(color='blue'),
-            tickfont=dict(color='blue')
+            tickfont=font_dict,
+            tickcolor='blue'
         ),
         yaxis2=dict(
             title='MFC[2].ActualFlow',
-            titlefont=dict(color='red'),
-            tickfont=dict(color='red'),
+            tickfont=font_dict,
+            tickcolor='red',
             overlaying='y',
             side='right'
         ),
